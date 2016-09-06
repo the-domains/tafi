@@ -1,28 +1,40 @@
-name: TAFi
-favicon: null
-layout_spectrum: 0.20616867556236684
-typography_spectrum: 0.35979462089017034
+purpose: []
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+color:
+  saturation: 0.7818177507724613
+  brandStrength: 1
+  lightness: 0.39209144259803
+  brandColors:
+    - '#8D9AA3'
+    - '#036268'
+    - '#55564E'
+    - '#D9F8FC'
+    - '#4C8C98'
+  rhythmicContrast: 0.2070594581309706
 cta:
-  domain: null
   bucket: null
   version: null
+  domain: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
+name: TAFi
+favicon: null
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#17BEBB'
-    - '#2E282A'
-    - '#CD5334'
-    - '#EDB88B'
-    - '#FAD8D6'
-  brandStrength: 0.4451129019726068
-  lightness: 0.39209144259802997
-  saturation: 0.7818177507724613
-  rhythmicContrast: 0.2070594581309706
-purpose: []
+typography_spectrum: 0.1397849
+layout_spectrum: 0.2526882
